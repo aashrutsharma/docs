@@ -1,132 +1,67 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "Superadmission",
+  "name": "SuperAdmission",
+  "logo": {
+    "dark": "/logo/dark.svg",
+    "light": "/logo/light.svg"
+  },
+  "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#ec1414",
-    "light": "#e80808",
-    "dark": "#ec1414"
+    "primary": "#002147",
+    "light": "#07C983",
+    "dark": "#002147"
   },
-  "favicon": {
-    "light": "/images/Colored_ICON_Transparent.png",
-    "dark": "/images/Colored_ICON_Transparent.png"
+  "topbarCtaButton": {
+    "name": "Get Involved",
+    "url": "/implementation/get-involved"
   },
-  "navigation": {
-    "tabs": [
-      {
-        "tab": "Guides",
-        "groups": [
-          {
-            "group": "Getting started",
-            "pages": [
-              "index",
-              "quickstart",
-              "development"
-            ]
-          },
-          {
-            "group": "Customization",
-            "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
-          }
-        ]
-      }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
+  "navigation": [
+    {
+      "group": "Overview",
+      "pages": ["introduction", "vision-mission"]
+    },
+    {
+      "group": "The Crisis",
+      "pages": [
+        "problem/overview",
+        "problem/fragmentation",
+        "problem/impact"
+      ]
+    },
+    {
+      "group": "The Solution",
+      "pages": [
+        "solution/overview",
+        "solution/how-it-works",
+        "solution/key-features"
+      ]
+    },
+    {
+      "group": "Technology",
+      "pages": [
+        "technology/architecture",
+        "technology/gale-shapley",
+        "technology/dpi-integration",
+        "technology/security"
+      ]
+    },
+    {
+      "group": "Stakeholders",
+      "pages": [
+        "stakeholders/students",
+        "stakeholders/institutions",
+        "stakeholders/government"
+      ]
+    },
+    {
+      "group": "Implementation",
+      "pages": [
+        "implementation/roadmap",
+        "implementation/pilot-program",
+        "implementation/get-involved"
       ]
     }
-  },
-  "logo": {
-    "light": "/images/superadmission_logo_.png",
-    "dark": "/images/superadmission_logo_white.png"
-  },
-  "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
-    }
-  },
-  "contextual": {
-    "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
-  },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
-    }
-  },
-  "background": {
-    "decoration": "gradient"
-  },
-  "appearance": {
-    "default": "system",
-    "strict": false
+  ],
+  "footerSocials": {
+    "linkedin": "https://linkedin.com/company/superadmission"
   }
 }
