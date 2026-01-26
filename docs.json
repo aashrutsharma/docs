@@ -5,19 +5,30 @@
     "light": "/logo/light.svg"
   },
   "favicon": "/favicon.svg",
+  "theme": "mint",
   "colors": {
     "primary": "#002147",
     "light": "#07C983",
     "dark": "#002147"
   },
+  "topbarLinks": [
+    {
+      "name": "Contact",
+      "url": "mailto:contact@superadmission.com"
+    }
+  ],
   "topbarCtaButton": {
     "name": "Get Involved",
     "url": "/implementation/get-involved"
   },
+  "tabs": [],
   "navigation": [
     {
       "group": "Overview",
-      "pages": ["introduction", "vision-mission"]
+      "pages": [
+        "introduction",
+        "vision-mission"
+      ]
     },
     {
       "group": "The Crisis",
