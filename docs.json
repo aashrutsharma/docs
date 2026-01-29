@@ -15,6 +15,12 @@
   "navigation": {
     "groups": [
       {
+        "group": "Overview",
+        "pages": [
+          "Overview"
+        ]
+      },
+      {
         "group": "Leadership",
         "pages": [
           "Leadership/Aashrut-Sharma",
