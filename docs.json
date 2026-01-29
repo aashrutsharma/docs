@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "name": "FYLS — Founders & Leadership",
+  "name": "FYLS – Founders & Leadership",
   "theme": "mint",
   "logo": {
     "light": "/images/Colored_ICON_Transparent.svg",
@@ -17,21 +17,21 @@
       {
         "group": "Overview",
         "pages": [
-          "Overview"
+          "overview"
         ]
       },
       {
-        "group": "leadership",
+        "group": "Leadership",
         "pages": [
-          "Leadership/aashrut-sharma",
-          "Leadership/untitled-page"
+          "leadership/aashrut-sharma",
+          "leadership/untitled-page"
         ]
       },
       {
-        "group": "shared-vision",
+        "group": "Shared Vision",
         "pages": [
-          "Shared-Vision/joint-philosophy",
-          "Shared-Vision/operating-values"
+          "shared-vision/joint-philosophy",
+          "shared-vision/operating-values"
         ]
       }
     ]
