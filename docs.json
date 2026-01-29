@@ -15,13 +15,6 @@
   "navigation": {
     "groups": [
       {
-        "group": "Founders",
-        "pages": [
-          "Founders/Overview",
-          "Founders/About-Superadmission"
-        ]
-      },
-      {
         "group": "Leadership",
         "pages": [
           "Leadership/Aashrut-Sharma",
@@ -33,13 +26,6 @@
         "pages": [
           "Shared-Vision/Joint-Philosophy",
           "Shared-Vision/Operating-Values"
-        ]
-      },
-      {
-        "group": "Credibility",
-        "pages": [
-          "Credibility/Advisors",
-          "Credibility/Recognition"
         ]
       },
       {
