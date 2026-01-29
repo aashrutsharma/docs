@@ -1,15 +1,12 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "name": "Prepared For FYLS 2026 Dubai — Leadership",
+  "name": "FYLS — Founders & Leadership",
   "theme": "mint",
   "logo": {
     "light": "/images/Colored_ICON_Transparent.svg",
     "dark": "/images/White_ICON_Transparent.svg"
   },
-  "favicon": {
-    "light": "/images/Colored_ICON_Transparent.svg",
-    "dark": "/images/White_ICON_Transparent.svg"
-  },
+  "favicon": "/favicon.svg",
   "colors": {
     "primary": "#E10600",
     "light": "#ef453f",
@@ -18,17 +15,23 @@
   "navigation": {
     "groups": [
       {
+        "group": "Overview",
+        "pages": [
+          "Overview"
+        ]
+      },
+      {
         "group": "Leadership",
         "pages": [
-          "leadership/aashrut-sharma",
-          "leadership/untitled-page"
+          "Leadership/Aashrut-Sharma",
+          "Leadership/Unnati-Vijay"
         ]
       },
       {
         "group": "Shared Vision",
         "pages": [
-          "shared-vision/operating-values",
-          "shared-vision/joint-philosophy"
+          "Shared-Vision/Joint-Philosophy",
+          "Shared-Vision/Operating-Values"
         ]
       }
     ]
