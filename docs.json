@@ -1,12 +1,15 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "name": "FYLS — Founders & Leadership",
+  "name": "Prepared For FYLS 2026 Dubai — Leadership",
   "theme": "mint",
   "logo": {
     "light": "/images/Colored_ICON_Transparent.svg",
     "dark": "/images/White_ICON_Transparent.svg"
   },
-  "favicon": "/favicon.svg",
+  "favicon": {
+    "light": "/images/Colored_ICON_Transparent.svg",
+    "dark": "/images/White_ICON_Transparent.svg"
+  },
   "colors": {
     "primary": "#E10600",
     "light": "#ef453f",
