@@ -1,78 +1,64 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "name": "Documents",
+  "name": "SuperAdmission — Founders",
   "theme": "mint",
+
   "logo": {
     "light": "/images/Colored_ICON_Transparent.svg",
     "dark": "/images/White_ICON_Transparent.svg"
   },
+
   "favicon": "/favicon.svg",
+
   "colors": {
     "primary": "#E10600",
     "light": "#ef453f",
     "dark": "#da231c"
   },
-  "tabs": [],
+
   "navigation": {
     "groups": [
       {
-        "group": "Overview",
+        "group": "Founders",
         "pages": [
-          "introduction",
-          "vision-mission"
+          "index",
+          "about-superadmission"
         ]
       },
       {
-        "group": "Problem",
+        "group": "Leadership",
         "pages": [
-          "problem/overview",
-          "problem/fragmentation",
-          "problem/impact"
+          "founders/aashrut",
+          "founders/unnati"
         ]
       },
       {
-        "group": "Solution",
+        "group": "Shared Vision",
         "pages": [
-          "solution/overview",
-          "solution/how-it-works",
-          "solution/key-features"
+          "founders/shared-vision",
+          "founders/values"
         ]
       },
       {
-        "group": "Technology",
+        "group": "Credibility",
         "pages": [
-          "technology/architecture",
-          "technology/gale-shapley",
-          "technology/dpi-integration",
-          "technology/security"
-        ]
-      },
-      {
-        "group": "Stakeholders",
-        "pages": [
-          "stakeholders/students",
-          "stakeholders/institutions",
-          "stakeholders/government"
-        ]
-      },
-      {
-        "group": "Implementation",
-        "pages": [
-          "implementation/roadmap",
-          "implementation/pilot-program",
-          "implementation/get-involved"
+          "credibility/advisors",
+          "credibility/recognition"
         ]
       }
     ]
   },
+
   "background": {
     "decoration": "gradient"
   },
+
   "footer": {
     "socials": {
       "linkedin": "https://www.linkedin.com/company/superadmission"
     }
   },
+
   "thumbnails": {
     "background": "/images/banner_linkedin2.png"
   }
