@@ -15,31 +15,17 @@
   "navigation": {
     "groups": [
       {
-        "group": "Overview",
-        "pages": [
-          "Overview"
-        ]
-      },
-      {
         "group": "Leadership",
         "pages": [
-          "Leadership/Aashrut-Sharma",
-          "Leadership/Unnati-Vijay"
+          "leadership/aashrut-sharma",
+          "leadership/untitled-page"
         ]
       },
       {
         "group": "Shared Vision",
         "pages": [
-          "Shared-Vision/Joint-Philosophy",
-          "Shared-Vision/Operating-Values"
-        ]
-      },
-      {
-        "group": "AI & Tooling",
-        "pages": [
-          "ai-tools/claude-code",
-          "ai-tools/cursor",
-          "ai-tools/windsurf"
+          "shared-vision/operating-values",
+          "shared-vision/joint-philosophy"
         ]
       }
     ]
