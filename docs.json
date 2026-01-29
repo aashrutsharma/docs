@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "name": "SuperAdmission — Founders",
+  "name": "FYLS — Founders & Leadership",
   "theme": "mint",
   "logo": {
     "light": "/images/Colored_ICON_Transparent.svg",
@@ -32,14 +32,6 @@
         "pages": [
           "Shared-Vision/Joint-Philosophy",
           "Shared-Vision/Operating-Values"
-        ]
-      },
-      {
-        "group": "AI & Tooling",
-        "pages": [
-          "ai-tools/claude-code",
-          "ai-tools/cursor",
-          "ai-tools/windsurf"
         ]
       }
     ]
