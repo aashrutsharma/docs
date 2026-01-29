@@ -21,17 +21,17 @@
         ]
       },
       {
-        "group": "Leadership",
+        "group": "leadership",
         "pages": [
           "Leadership/aashrut-sharma",
           "Leadership/untitled-page"
         ]
       },
       {
-        "group": "Shared Vision",
+        "group": "shared-vision",
         "pages": [
-          "Shared-Vision/Joint-Philosophy",
-          "Shared-Vision/Operating-Values"
+          "Shared-Vision/joint-philosophy",
+          "Shared-Vision/operating-values"
         ]
       }
     ]
