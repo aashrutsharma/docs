@@ -6,10 +6,7 @@
     "light": "/images/Colored_ICON_Transparent.svg",
     "dark": "/images/White_ICON_Transparent.svg"
   },
-  "favicon": {
-    "light": "/images/Colored_ICON_Transparent.svg",
-    "dark": "/images/White_ICON_Transparent.svg"
-  },
+  "favicon": "/favicon.svg",
   "colors": {
     "primary": "#E10600",
     "light": "#ef453f",
@@ -35,6 +32,14 @@
         "pages": [
           "Shared-Vision/Joint-Philosophy",
           "Shared-Vision/Operating-Values"
+        ]
+      },
+      {
+        "group": "AI & Tooling",
+        "pages": [
+          "ai-tools/claude-code",
+          "ai-tools/cursor",
+          "ai-tools/windsurf"
         ]
       }
     ]
