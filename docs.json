@@ -2,63 +2,64 @@
   "$schema": "https://mintlify.com/docs.json",
   "name": "SuperAdmission — Founders",
   "theme": "mint",
-
   "logo": {
     "light": "/images/Colored_ICON_Transparent.svg",
     "dark": "/images/White_ICON_Transparent.svg"
   },
-
   "favicon": "/favicon.svg",
-
   "colors": {
     "primary": "#E10600",
     "light": "#ef453f",
     "dark": "#da231c"
   },
-
   "navigation": {
     "groups": [
       {
         "group": "Founders",
         "pages": [
-          "index",
-          "about-superadmission"
+          "Founders/Overview",
+          "Founders/About-Superadmission"
         ]
       },
       {
         "group": "Leadership",
         "pages": [
-          "founders/aashrut",
-          "founders/unnati"
+          "Leadership/Aashrut-Sharma",
+          "Leadership/Unnati-Vijay"
         ]
       },
       {
         "group": "Shared Vision",
         "pages": [
-          "founders/shared-vision",
-          "founders/values"
+          "Shared-Vision/Joint-Philosophy",
+          "Shared-Vision/Operating-Values"
         ]
       },
       {
         "group": "Credibility",
         "pages": [
-          "credibility/advisors",
-          "credibility/recognition"
+          "Credibility/Advisors",
+          "Credibility/Recognition"
+        ]
+      },
+      {
+        "group": "AI & Tooling",
+        "pages": [
+          "ai-tools/claude-code",
+          "ai-tools/cursor",
+          "ai-tools/windsurf"
         ]
       }
     ]
   },
-
   "background": {
     "decoration": "gradient"
   },
-
   "footer": {
     "socials": {
       "linkedin": "https://www.linkedin.com/company/superadmission"
     }
   },
-
   "thumbnails": {
     "background": "/images/banner_linkedin2.png"
   }
