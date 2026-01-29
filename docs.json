@@ -1,78 +1,79 @@
 {
-  "name": "SuperAdmission",
+  "$schema": "https://mintlify.com/docs.json",
+  "name": "Documents",
+  "theme": "mint",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "light": "/images/Colored_ICON_Transparent.svg",
+    "dark": "/images/White_ICON_Transparent.svg"
   },
   "favicon": "/favicon.svg",
-  "theme": "mint",
   "colors": {
-    "primary": "#002147",
-    "light": "#07C983",
-    "dark": "#002147"
+    "primary": "#E10600",
+    "light": "#ef453f",
+    "dark": "#da231c"
   },
-  "topbarLinks": [
-    {
-      "name": "Contact",
-      "url": "mailto:contact@superadmission.com"
-    }
-  ],
-  "topbarCtaButton": {
-    "name": "Get Involved",
-    "url": "/implementation/get-involved"
-    },
   "tabs": [],
-  "navigation": [
-    {
-      "group": "Overview",
-      "pages": [
-        "introduction",
-        "vision-mission"
-      ]
-    },
-    {
-      "group": "The Crisis",
-      "pages": [
-        "problem/overview",
-        "problem/fragmentation",
-        "problem/impact"
-      ]
-    },
-    {
-      "group": "The Solution",
-      "pages": [
-        "solution/overview",
-        "solution/how-it-works",
-        "solution/key-features"
-      ]
-    },
-    {
-      "group": "Technology",
-      "pages": [
-        "technology/architecture",
-        "technology/gale-shapley",
-        "technology/dpi-integration",
-        "technology/security"
-      ]
-    },
-    {
-      "group": "Stakeholders",
-      "pages": [
-        "stakeholders/students",
-        "stakeholders/institutions",
-        "stakeholders/government"
-      ]
-    },
-    {
-      "group": "Implementation",
-      "pages": [
-        "implementation/roadmap",
-        "implementation/pilot-program",
-        "implementation/get-involved"
-      ]
+  "navigation": {
+    "groups": [
+      {
+        "group": "Overview",
+        "pages": [
+          "introduction",
+          "vision-mission"
+        ]
+      },
+      {
+        "group": "Problem",
+        "pages": [
+          "problem/overview",
+          "problem/fragmentation",
+          "problem/impact"
+        ]
+      },
+      {
+        "group": "Solution",
+        "pages": [
+          "solution/overview",
+          "solution/how-it-works",
+          "solution/key-features"
+        ]
+      },
+      {
+        "group": "Technology",
+        "pages": [
+          "technology/architecture",
+          "technology/gale-shapley",
+          "technology/dpi-integration",
+          "technology/security"
+        ]
+      },
+      {
+        "group": "Stakeholders",
+        "pages": [
+          "stakeholders/students",
+          "stakeholders/institutions",
+          "stakeholders/government"
+        ]
+      },
+      {
+        "group": "Implementation",
+        "pages": [
+          "implementation/roadmap",
+          "implementation/pilot-program",
+          "implementation/get-involved"
+        ]
+      }
+    ]
+  },
+  "background": {
+    "decoration": "gradient"
+  },
+  "footer": {
+    "socials": {
+      "linkedin": "https://www.linkedin.com/company/superadmission"
     }
-  ],
-  "footerSocials": {
-    "linkedin": "https://linkedin.com/company/superadmission"
+  },
+  "thumbnails": {
+    "background": "/images/banner_linkedin2.png"
   }
 }
