@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "name": "Prepared For FYLS 2026",
+  "name": "Prepared For Delhi University Placement Cell Profile Submission",
   "theme": "mint",
   "logo": {
     "light": "/images/Colored_ICON_Transparent.svg",
@@ -49,5 +49,6 @@
   },
   "thumbnails": {
     "background": "/images/banner_linkedin2.png"
-  }
+  },
+  "description": "This documentation has been prepared specifically for placement cell profile submission. The URL is access-controlled and shared selectively. Please keep this link confidential and do not distribute without permission."
 }
