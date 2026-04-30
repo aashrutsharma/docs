@@ -3,8 +3,8 @@
   "name": "Superadmission Team",
   "theme": "maple",
   "logo": {
-    "light": "/images/superadmission-icon-black.png",
-    "dark": "/images/superadmission-icon-white.png"
+    "light": "/superadmission-icon-black.png",
+    "dark": "/superadmission-icon-white.png"
   },
   "favicon": "/favicon.svg",
   "colors": {
