@@ -34,40 +34,39 @@
       {
         "group": "Overview",
         "pages": [
-          "overview/who-we-are",
-          "overview/origin-of-idea",
-          "overview/what-we-are-building"
+          "Overview/who-we-are",
+          "Overview/origin-of-idea",
+          "Overview/what-we-are-building"
         ]
       },
       {
         "group": "Leadership",
         "pages": [
-          "leadership/aashrut-sharma",
-          "leadership/unnati-vijay"
+          "Leadership/aashrut-sharma"
         ]
       },
       {
         "group": "Shared Vision",
         "pages": [
-          "shared-vision/joint-philosophy",
-          "shared-vision/operating-values",
-          "shared-vision/the-path-we-chose"
+          "Shared-Vision/joint-philosophy",
+          "Shared-Vision/operating-values",
+          "Shared-Vision/the-path-we-chose"
         ]
       },
       {
         "group": "How We Work",
         "pages": [
-          "how-we-work/culture",
-          "how-we-work/decision-making",
-          "how-we-work/research-and-fieldwork"
+          "How-we-work/culture",
+          "How-we-work/decision-making",
+          "How-we-work/research-and-fieldwork"
         ]
       },
       {
         "group": "Join Us",
         "pages": [
-          "join-us/why-join",
-          "join-us/who-we-are-looking-for",
-          "join-us/open-roles"
+          "Join-us/why-join",
+          "Join-us/Reach-us",
+          "Join-us/open-roles"
         ]
       }
     ]
