@@ -29,47 +29,49 @@
     "name": "Read the Docs",
     "url": "https://docs.superadmission.com"
   },
-  "navigation": [
-    {
-      "group": "Overview",
-      "pages": [
-        "overview/who-we-are",
-        "overview/origin-of-the-idea",
-        "overview/what-we-are-building"
-      ]
-    },
-    {
-      "group": "Leadership",
-      "pages": [
-        "leadership/aashrut-sharma",
-        "leadership/unnati-vijay"
-      ]
-    },
-    {
-      "group": "Shared Vision",
-      "pages": [
-        "shared-vision/joint-philosophy",
-        "shared-vision/operating-values",
-        "shared-vision/the-path-we-chose"
-      ]
-    },
-    {
-      "group": "How We Work",
-      "pages": [
-        "how-we-work/culture",
-        "how-we-work/decision-making",
-        "how-we-work/research-and-fieldwork"
-      ]
-    },
-    {
-      "group": "Join Us",
-      "pages": [
-        "join-us/why-join",
-        "join-us/who-we-are-looking-for",
-        "join-us/open-roles"
-      ]
-    }
-  ],
+  "navigation": {
+    "groups": [
+      {
+        "group": "Overview",
+        "pages": [
+          "overview/who-we-are",
+          "overview/origin-of-the-idea",
+          "overview/what-we-are-building"
+        ]
+      },
+      {
+        "group": "Leadership",
+        "pages": [
+          "leadership/aashrut-sharma",
+          "leadership/unnati-vijay"
+        ]
+      },
+      {
+        "group": "Shared Vision",
+        "pages": [
+          "shared-vision/joint-philosophy",
+          "shared-vision/operating-values",
+          "shared-vision/the-path-we-chose"
+        ]
+      },
+      {
+        "group": "How We Work",
+        "pages": [
+          "how-we-work/culture",
+          "how-we-work/decision-making",
+          "how-we-work/research-and-fieldwork"
+        ]
+      },
+      {
+        "group": "Join Us",
+        "pages": [
+          "join-us/why-join",
+          "join-us/who-we-are-looking-for",
+          "join-us/open-roles"
+        ]
+      }
+    ]
+  },
   "footerSocials": {
     "linkedin": "https://linkedin.com/company/superadmission",
     "twitter": "https://twitter.com/superadmission"
