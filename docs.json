@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "name": "Superadmission Blueprint",
+  "name": "Superadmission Team",
   "theme": "maple",
   "logo": {
     "light": "/images/superadmission-icon-black.png",
@@ -22,7 +22,7 @@
   "topbarLinks": [
     {
       "name": "Reach the Founders",
-      "url": "mailto:hello@superadmission.com"
+      "url": "mailto:office@superadmission.com"
     }
   ],
   "topbarCtaButton": {
