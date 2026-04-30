@@ -1,53 +1,77 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "name": "Prepared as a comprehensive professional profile showcasing entrepreneurial work, projects, and academic journey.",
-  "theme": "mint",
+  "name": "Superadmission Blueprint",
+  "theme": "maple",
   "logo": {
-    "light": "/images/Colored_ICON_Transparent.svg",
-    "dark": "/images/White_ICON_Transparent.svg"
+    "light": "/images/superadmission-icon-black.png",
+    "dark": "/images/superadmission-icon-white.png"
   },
-  "favicon": {
-    "light": "/images/Colored_ICON_Transparent.svg",
-    "dark": "/images/White_ICON_Transparent.svg"
-  },
+  "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#E10600",
-    "light": "#ef453f",
-    "dark": "#da231c"
-  },
-  "navigation": {
-    "groups": [
-      {
-        "group": "Overview",
-        "pages": [
-          "overview"
-        ]
-      },
-      {
-        "group": "Leadership",
-        "pages": [
-          "leadership/aashrut-sharma",
-          "leadership/untitled-page"
-        ]
-      },
-      {
-        "group": "Shared Vision",
-        "pages": [
-          "shared-vision/joint-philosophy",
-          "shared-vision/operating-values"
-        ]
-      }
-    ]
+    "primary": "#000000",
+    "light": "#626262",
+    "dark": "#000000"
   },
   "background": {
-    "decoration": "gradient"
+    "decoration": "windows"
   },
-  "footer": {
-    "socials": {
-      "linkedin": "https://www.linkedin.com/company/superadmission"
+  "appearance": {
+    "default": "light",
+    "strict": false
+  },
+  "topbarLinks": [
+    {
+      "name": "Reach the Founders",
+      "url": "mailto:hello@superadmission.com"
     }
+  ],
+  "topbarCtaButton": {
+    "name": "Read the Docs",
+    "url": "https://docs.superadmission.com"
   },
-  "thumbnails": {
-    "background": "/images/banner_linkedin2.png"
+  "navigation": [
+    {
+      "group": "Overview",
+      "pages": [
+        "overview/who-we-are",
+        "overview/origin-of-the-idea",
+        "overview/what-we-are-building"
+      ]
+    },
+    {
+      "group": "Leadership",
+      "pages": [
+        "leadership/aashrut-sharma",
+        "leadership/unnati-vijay"
+      ]
+    },
+    {
+      "group": "Shared Vision",
+      "pages": [
+        "shared-vision/joint-philosophy",
+        "shared-vision/operating-values",
+        "shared-vision/the-path-we-chose"
+      ]
+    },
+    {
+      "group": "How We Work",
+      "pages": [
+        "how-we-work/culture",
+        "how-we-work/decision-making",
+        "how-we-work/research-and-fieldwork"
+      ]
+    },
+    {
+      "group": "Join Us",
+      "pages": [
+        "join-us/why-join",
+        "join-us/who-we-are-looking-for",
+        "join-us/open-roles"
+      ]
+    }
+  ],
+  "footerSocials": {
+    "linkedin": "https://linkedin.com/company/superadmission",
+    "twitter": "https://twitter.com/superadmission"
   }
 }

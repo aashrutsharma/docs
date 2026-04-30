@@ -1,0 +1,39 @@
+---
+title: "What We Are Building"
+---
+
+Superadmission is India's first unified admissions infrastructure: a shared digital layer, built on Aadhaar, DigiLocker, APAAR, and UPI, that sits beneath the country's 200\+ independent counselling systems and coordinates what they currently cannot coordinate on their own.
+
+The prototype is approximately 85% complete. This page describes what exists today.
+
+---
+
+## Core systems — live
+
+**Identity and verification layer** Students register once using Aadhaar OTP authentication. Documents — marksheets, caste certificates, income certificates, exam scores — are fetched directly from issuing authorities via DigiLocker. The student uploads nothing. The verification result travels across every integrated counselling.
+
+**Seat allocation engine** Built on the Gale-Shapley deferred acceptance algorithm. Configurable per counselling authority — each authority defines their own seat matrix, category rules, and round structure. Validated against JoSAA 2023 and 2024 public outcomes. Produces identical results.
+
+**Pravesh AI** The guidance and decision-support layer. Surfaces allocation probability by rank and category. Explains seat offers in plain language. Provides round-specific trend insights. Flags document gaps before they become rejections. For students without external guidance, this is the layer that levels the playing field.
+
+**Virtual Spot Round** A live, rank-gated digital environment for end-of-cycle seat selection. Students see their queue position in real time, see available seats by branch and category with previous-year closing data, and make decisions with an active countdown timer. No travel. No demand drafts. No physical queues.
+
+**Audit trail** Every system event — document verified, choice saved, seat allocated, payment confirmed — generates a unique cryptographic hash. Every event is source-attributed. Every allocation decision is traceable step by step. This is not a log. It is a permanent, tamper-evident record of every consequential action in the admissions journey.
+
+**Payments** All fee transactions across counsellings run through UPI/NPCI. Unified payments dashboard. Due dates surfaced before they arrive. Refund status tracked automatically. Every payment hash-stamped.
+
+---
+
+## What comes next
+
+Reserved seat automatic reallocation and regional language support are in active development. The first live pilot — integration with a state counselling authority for a defined cohort and round — is the immediate priority.
+
+The platform is not claimed to be complete. The systems above are real and demonstrable. A pilot is where the architecture meets real load conditions, real student data, and real counselling timelines — and gets validated or refined.
+
+---
+
+## For those who want the full technical detail
+
+The Blueprint at [docs.superadmission.in](https://docs.superadmission.in) covers every system in depth: the India Stack integrations, the allocation engine's design, the interoperability architecture, the data privacy model, and the open questions the team is still working through.
+
+It is written to be read carefully. It does not skip the hard parts.
